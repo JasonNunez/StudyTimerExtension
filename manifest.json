@@ -1,0 +1,29 @@
+{
+  "action": {
+    "default_icon": {
+      "16": "icon.png",
+      "24": "icon.png",
+      "32": "icon.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "Timer Extension Action Title"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "description": "A timer to assist with studying",
+  "icons": {
+    "128": "icon.png",
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "manifest_version": 3,
+  "name": "Timer Extension",
+  "options_page": "options.html",
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications"
+  ],
+  "version": "1.0.0"
+}
